@@ -1,10 +1,14 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Calculator from "./components/Calculator";
+import ClickAndHoverCounter from "./components/HOC/ClickAndHoverCounter";
 
 function App() {
     return (
-        <Calculator />
+        <div>
+            <Calculator />
+            <ClickAndHoverCounter />
+        </div>
         /*<div className="App">
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo" />
