@@ -1,13 +1,15 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Calculator from "./components/Calculator";
-import ClickAndHoverCounter from "./components/HOC/ClickAndHoverCounter";
+import HigherOrderComponentContainer from "./components/HOC/HigherOrderComponentContainer";
+import RenderPropsPatternContainer from "./components/RPP/RenderPropsPatternContainer";
 
 function App() {
     return (
         <div>
             <Calculator />
-            <ClickAndHoverCounter />
+            <HigherOrderComponentContainer />
+            <RenderPropsPatternContainer />
         </div>
         /*<div className="App">
             <header className="App-header">
