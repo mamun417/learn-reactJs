@@ -1,15 +1,17 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Calculator from "./components/Calculator";
+import Calculator from "./components/LIFTING STATE UP/Calculator";
 import HigherOrderComponentContainer from "./components/HOC/HigherOrderComponentContainer";
 import RenderPropsPatternContainer from "./components/RPP/RenderPropsPatternContainer";
+import ContextApiContainer from "./components/CONTEXTAPI/ContextApiContainer";
 
 function App() {
     return (
         <div>
-            <Calculator />
-            <HigherOrderComponentContainer />
-            <RenderPropsPatternContainer />
+            {/*<Calculator />*/}
+            {/*<HigherOrderComponentContainer />*/}
+            {/*<RenderPropsPatternContainer />*/}
+            <ContextApiContainer />
         </div>
         /*<div className="App">
             <header className="App-header">

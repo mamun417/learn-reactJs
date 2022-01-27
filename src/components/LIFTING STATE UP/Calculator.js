@@ -1,7 +1,7 @@
 import React from "react";
 import BoilingVerdict from "./BoilingVerdict";
 import TemperatureInput from "./TemperatureInput";
-import { toCelsius, toFahrenheit, tryConvert } from "./lib/converter";
+import { toCelsius, toFahrenheit, tryConvert } from "../../lib/converter";
 
 export default class Calculator extends React.Component {
     state = { temperature: "", scale: "c" };
