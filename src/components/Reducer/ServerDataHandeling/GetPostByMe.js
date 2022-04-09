@@ -30,7 +30,7 @@ export default function GetPostByMe() {
         getPost();
     }, []);
 
-    return (u
+    return (
         <div>
             <b>Get post by me</b>
             {loading && <div>Loading...</div>}
